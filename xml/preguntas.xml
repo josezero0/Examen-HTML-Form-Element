@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE questions[
+    <!ELEMENT questions (question*)>
+    <!ATTLIST questions xmlns:xsi CDATA #REQUIRED
+    xsi:noNamespaceSchemaLocation CDATA #REQUIRED>
+    <!ELEMENT question (type, title, option*, answer+)>
+    <!ATTLIST question id CDATA #REQUIRED>
+    <!ELEMENT type (#PCDATA)>
+    <!ELEMENT title (#PCDATA)>
+    <!ELEMENT option (#PCDATA)>
+    <!ELEMENT answer (#PCDATA)>
+]>
+<questions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="preguntas.xsd">
+    <question id="q1">
+        <type>radio</type>
+        <title>1.- ¿En que año gano España su primer Mundial de Futbol?</title>
+        <option>a) 1985</option>
+        <option>b) 1927</option>
+        <option>c) 2010</option>
+        <option>d) Ninguna de las anteriores </option>
+        <answer>c) 2010</answer>
+    </question>
+    <question id="q2">
+        <type>text</type>
+        <title>2.- Si tu conduces un autobus con 40 pasajeros y en la siguiente parada se bajan 13 pasajeros, ¿Quien conduce el autobus?</title>
+        <answer>Yo</answer>
+    </question>
+    <question id="q3">
+        <type>checkbox</type>
+        <title>3.- Doscientos patos metidos en un cajón,¿cuantas patas y picos son?</title>
+        <option>a) 2 picos y 4 patas</option>
+        <option>b) 200 picos y 400 patas</option>
+        <option>c) Patata</option>
+        <option>d) Ninguna de las anteriores</option>
+        <answer>a) 2 picos y 4 patas</answer>
+    </question>
+    <question id="q4">
+        <type>select</type>
+        <title>4.- ¿Que habilidad utiliza Naruto?</title>
+        <option>a) Rasengan</option>
+        <option>b) Raikiri</option>
+        <option>c) Chidori</option>
+        <option>d) Pistola Agua</option> 
+        <answer>a) Rasengan</answer>
+    </question>
+    <question id="q5">
+        <type>multiple</type>
+        <title>5.- ¿Quien de los siguentes jugadores juegan o han jugado en el Real Madrid?</title>
+        <option>a) Zidane</option>
+        <option>b) Marco Asensio</option>
+        <option>c) Godin</option>
+        <option>d) Lewandowski</option>
+        <option>e) Luis Enrrique</option>
+        <answer>a) Zidane</answer>
+        <answer>b) Marco Asensio</answer>
+        <answer>e) Luis Enrrique</answer>
+    </question>	
+    <question id="q6">
+        <type>radio</type>
+        <title>6.- Selecciona la palabra correcta:</title>
+        <option>a) Havía</option>
+        <option>b) Abía</option>
+        <option>c) Habia</option>
+        <option>d) Avía</option>
+        <answer>c) Había</answer>
+    </question>
+    <question id="q7">
+        <type>text</type>
+        <title>7.- ¿En qué mes una niña habladora habla menos?</title>
+        <answer>En febrero</answer>
+    </question>
+    <question id="q8">
+        <type>checkbox</type>
+        <title>8.- ¿Cuántos meses tienen 28 dias ?:</title>
+        <option>a) Enero, diciembre, agosto, junio.</option>
+        <option>b) Febrero, noviembre, octubre, julio.</option>
+        <option>c) Abril, marzo, mayo, septiembre.</option>
+        <answer>Todos</answer>
+    </question>
+    <question id="q9">
+        <type>select</type>
+        <title>9.- Según la ley de Newton, la fuerza es proporcional a</title>
+        <option>a) El tiempo</option>
+        <option>b) La velocidad</option>
+        <option>c) La aceleración</option>
+        <option>d) La posición</option> 
+        <answer>c) La aceleración</answer>
+    </question>
+    <question id="q10">
+        <type>multiple</type>
+        <title>10.- ¿Qué elementos forman el agua?</title>
+        <option>a) O y H</option>
+        <option>b) Hidrógeno y oxígeno</option>
+        <option>c) Carbono y hidrógeno</option>
+        <option>d) N, O y C</option>
+        <answer>a) O y H</answer>
+        <answer>b) Hidrógeno y Oxígeno</answer>
+    </question>	
+</questions>
