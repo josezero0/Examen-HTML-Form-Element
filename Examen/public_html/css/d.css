@@ -13,6 +13,10 @@ header{
     text-align: center;
 }
 
+p{
+    font-size: 25px;
+}
+
 #a{
     font-size: 25px;
     text-align: center;
@@ -43,6 +47,46 @@ header{
     text-align: center;
 }
 
+#c{
+    overflow-y: scroll;
+    position: fixed;
+    top: 25%;
+    bottom: 5%;
+    left: 10%;
+    right: 10%;
+    text-align: left;
+    display: none;
+}
+
+#pre{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+#next{
+    position: absolute;
+    top: 0;
+    right: 0;
+    float: right;
+}
+
+#confirm{
+    position: fixed;
+    top: 25%;
+    bottom: 5%;
+    left: 10%;
+    right: 10%;
+    text-align: left;
+    display: none;
+    font-size: 25px;
+}
+
+#x{
+    text-align: center;
+}
+
 .button{
     background-color: #2196f3;
     border: none;
@@ -51,6 +95,49 @@ header{
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    font-size: 20px;
+}
+
+input[type=checkbox].check,input[type=radio].radio{
+    width:24px;
+    height:24px;
+}
+
+input[type=checkbox].check:checked+.validate,input[type=radio].radio:checked+.validate{
+    color:#009688
+}
+
+input[type=checkbox].check:disabled+.validate,input[type=radio].radio:disabled+.validate{
+    color:#aaa
+}
+
+.input-text{
+    width: 90%;
+    height: 28px;
+    border:2px solid #009688;
+    font-size: 25px;
+}
+
+.select{
+    font-size: 22px;
+    color:#009688;
+}
+
+.select-option{
+    font-size: 22px;
+    color: black;
+}
+
+.select-option:disabled{
+    color:#009688;
+}
+
+.datalist{
+    font-size: 20px;
+    border:2px solid #009688;
+}
+
+.datalist-option{
     font-size: 20px;
 }
 
