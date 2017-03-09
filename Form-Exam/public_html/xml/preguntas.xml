@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="preguntas.xsd">
+    <question id="1">
+        <type>radio</type>
+        <title>¿En qué año gano España su primer Mundial de Futbol?</title>
+        <option>1985</option>
+        <option>1927</option>
+        <option>2010</option>
+        <option>Ninguna de las anteriores </option>
+        <answer>2010</answer>
+    </question>
+    <question id="2">
+        <type>text</type>
+        <title>Si tu conduces un autobus con 40 pasajeros y en la siguiente parada se bajan 13 pasajeros, ¿Quien conduce el autobus?</title>
+        <answer>Yo</answer>
+    </question>
+    <question id="3">
+        <type>checkbox</type>
+        <title>Doscientos patos metidos en un cajón,¿cuantas patas y picos son?</title>
+        <option>2 picos y 4 patas</option>
+        <option>200 picos y 400 patas</option>
+        <option>Patata</option>
+        <option>Ninguna de las anteriores</option>
+        <answer>2 picos y 4 patas</answer>
+    </question>
+    <question id="4">
+        <type>select</type>
+        <title>¿Que habilidad utiliza Naruto?</title>
+        <option>Rasengan</option>
+        <option>Raikiri</option>
+        <option>Chidori</option>
+        <option>Pistola Agua</option> 
+        <answer>Rasengan</answer>
+    </question>
+    <question id="5">
+        <type>datalist</type>
+        <title>¿Quien de los siguentes jugadores juega o ha jugado en el Real Madrid?</title>
+        <option>Zidane</option>
+        <option>Michael Jordan</option>
+        <option>Godin</option>
+        <option>Lewandowski</option>
+        <option>Pau Gasol</option>
+        <answer>Zidane</answer>
+    </question>
+    <question id="6">
+        <type>radio</type>
+        <title>Selecciona la palabra correcta:</title>
+        <option>Havía</option>
+        <option>Abía</option>
+        <option>Había</option>
+        <option>Avía</option>
+        <answer>Había</answer>
+    </question>
+    <question id="7">
+        <type>text</type>
+        <title>¿En qué mes una niña habladora habla menos?</title>
+        <answer>Febrero</answer>
+    </question>
+    <question id="8">
+        <type>checkbox</type>
+        <title>¿Cuántos meses tienen 28 dias ?:</title>
+        <option>Enero, diciembre, agosto, junio.</option>
+        <option>Febrero, noviembre, octubre, julio.</option>
+        <option>Abril, marzo, mayo, septiembre.</option>
+        <answer>Enero, diciembre, agosto, junio.</answer>
+        <answer>Febrero, noviembre, octubre, julio.</answer>
+        <answer>Abril, marzo, mayo, septiembre.</answer>
+    </question>
+    <question id="9">
+        <type>select</type>
+        <title>Según la ley de Newton, la fuerza es proporcional a:</title>
+        <option>El tiempo</option>
+        <option>La velocidad</option>
+        <option>La aceleración</option>
+        <option>La posición</option> 
+        <answer>La aceleración</answer>
+    </question>
+    <question id="10">
+        <type>datalist</type>
+        <title>¿Qué elementos forman el agua?</title>
+        <option>O y H</option>
+        <option>Tomates</option>
+        <option>Carbono y hidrógeno</option>
+        <option>N, O y C</option>
+        <answer>O y H</answer>
+    </question>	
+</questions>
