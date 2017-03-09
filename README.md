@@ -1,7 +1,5 @@
 # Examen-HTML-Form-Element
 
-# Examen-HTML-Form-Element
-
 El proyecto consiste en un examen cargando preguntas desde un documento xml mediante js, incluyendo la corrección del mismo.
 
 El examen consta de 10 preguntas con los siguientes tipos de elementos de formulario: SELECT, RADIO, CHECKBOX, TEXT, DATALIST.
